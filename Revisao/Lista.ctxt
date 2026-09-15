@@ -1,0 +1,16 @@
+#BlueJ class context
+#Tue Sep 15 19:29:36 BRT 2026
+comment0.target=Lista
+comment1.target=Lista()
+comment2.params=n k
+comment2.target=Lista(int, int)
+comment3.params=i
+comment3.target=int get(int)
+comment4.params=i valor
+comment4.target=int set(int, int)
+comment5.params=valor
+comment5.target=void add(int)
+comment6.params=n k
+comment6.target=void geraLista(int, int)
+comment7.target=void imprime()
+numComments=8
