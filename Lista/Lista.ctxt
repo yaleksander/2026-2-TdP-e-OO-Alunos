@@ -1,0 +1,12 @@
+#BlueJ class context
+#Wed Sep 16 21:23:38 BRT 2026
+comment0.target=Lista
+comment1.target=Lista()
+comment2.params=i
+comment2.target=double get(int)
+comment3.params=i valor
+comment3.target=void set(int, int)
+comment4.params=valor
+comment4.target=void add(int)
+comment5.target=void imprime()
+numComments=6
