@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Main
 {
-    public static void main(String[] args)
+    public static void main()
     {
         Random r = new Random();
         Lista l = new Lista(r.nextInt(100) * 0.1);
