@@ -1,0 +1,16 @@
+#BlueJ class context
+#Mon Sep 28 18:46:38 BRT 2026
+comment0.target=Lista
+comment1.params=valor
+comment1.target=Lista(double)
+comment2.params=indice
+comment2.target=Lista get(int)
+comment3.params=indice valor
+comment3.target=void set(int, double)
+comment4.target=int tamanho()
+comment5.target=void imprime()
+comment6.params=indice
+comment6.target=void remove(int)
+comment7.params=l
+comment7.target=void insereNoFim(Lista)
+numComments=8
