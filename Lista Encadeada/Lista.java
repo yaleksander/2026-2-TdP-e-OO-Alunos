@@ -20,7 +20,7 @@ public class Lista
     {
         System.out.print("[");
         if (this.raiz != null)
-            this.raiz.imprime();
+            this.raiz.imprime(10);
         System.out.println("]");
     }
 

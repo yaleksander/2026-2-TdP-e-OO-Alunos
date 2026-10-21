@@ -42,11 +42,11 @@ public class NoLista
         return n;
     }
     
-    public void imprime()
+    public void imprime(int limite)
     {
         NoLista p = this;
         System.out.print(p.valor);
-        for (p = p.prox; p != null; p = p.prox)
+        for (p = p.prox; p != null && --limite > 0; p = p.prox)
             System.out.print(", " + p.valor);
     }
 
