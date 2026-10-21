@@ -7,11 +7,11 @@ public class Arvore
         this.raiz = null;
     }
     
-    public int tamanho()
+    public int altura()
     {
         if (this.raiz == null)
             return -1;
-        return this.raiz.tamanho();
+        return this.raiz.altura();
     }
     
     public void imprime()

@@ -13,7 +13,7 @@ public class No
         this.dir = null;
     }
     
-    public int tamanho()
+    public int altura()
     {
         return 0;
     }
