@@ -1,0 +1,9 @@
+#BlueJ class context
+#Mon Nov 09 19:05:37 BRT 2026
+comment0.target=Main
+comment1.target=void exercicio1()
+comment1.text=\r\n Ao implementar os exercicios a seguir, nao esqueca de\r\n adicionar um try/catch para lidar com excecoes (por\r\n exemplo caso o arquivo nao seja encontrado)\r\n
+comment2.target=void exercicio2()
+comment3.target=void exercicio3()
+comment4.target=void exercicio4()
+numComments=5
