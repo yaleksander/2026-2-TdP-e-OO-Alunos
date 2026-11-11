@@ -1,54 +1,30 @@
 public class Grafo
 {
     /*
-     * Implemente um grafo com uma lista ou matriz de adjacencia.
-     * As funcoes listadas a seguir tambem devem ser implementadas:
-     * - Grafo (construtor)
-     * - adicionaAresta
-     * - removeAresta
-     * - imprime
+     * Implemente a classe Grafo usando a representacao de matriz de
+     * adjacencia. Implemente tambem as funcoes a seguir:
      */
     
-    private Lista vertices;
+    private boolean[][] matrizAdj;
+    private int tamanho;
     
-    //private boolean[][] matrizAdj;
-    //private Lista listaAdj;
-    
-    public Grafo()
+    public Grafo(int tamanho)
     {
-        // construtor do grafo (inicialmente vazio)
-        this.vertices = new Lista();
-        // implementar inicializacao das arestas
-    }
-    
-    public void adicionaVertice(int valor)
-    {
-        this.vertices.insere(valor);
-    }
-    
-    public void removeVertice(int valor)
-    {
-        this.vertices.remove(this.vertices.busca(valor));
+        // construtor (grafo deve comecar vazio, ou seja, sem conexoes)
     }
     
     public void adicionaAresta(int origem, int destino)
     {
-        // adiciona uma conexao entre dois vertices
+        // adiciona uma conexao entre os vertices origem e destino
     }
     
     public void removeAresta(int origem, int destino)
     {
-        // remove uma conexao entre dois vertices
-    }
-    
-    public void imprimeVertices()
-    {
-        System.out.print("Elementos presentes no grafo: ");
-        this.vertices.imprime();
+        // remove uma conexao entre os vertices origem e destino
     }
     
     public void imprime()
     {
-        // imprime o grafo em sua representacao textual
+        // imprime a representacao do grafo em forma de tabela
     }
 }
