@@ -11,7 +11,7 @@ public class Grafo
     
     private Lista vertices;
     
-    //private boolean[][] matrixAdj;
+    //private boolean[][] matrizAdj;
     //private Lista listaAdj;
     
     public Grafo()
