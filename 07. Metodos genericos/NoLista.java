@@ -1,7 +1,7 @@
 public class NoLista<T>
 {
     private T conteudo;
-    private NoLista prox;
+    private NoLista<T> prox;
     
     public NoLista(T conteudo)
     {
