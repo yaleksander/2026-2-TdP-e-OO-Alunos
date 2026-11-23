@@ -1,13 +1,13 @@
-public class Lista
+public class Lista<T>
 {
-    private NoLista raiz;
+    private NoLista<T> raiz;
     
     public Lista()
     {
         raiz = null;
     }
     
-    public void insere(NoLista novoNo)
+    public void insere(NoLista<T> novoNo)
     {
         if (this.raiz == null)
             this.raiz = novoNo;
@@ -23,7 +23,7 @@ public class Lista
             this.raiz.remove(indice - 1);
     }
     
-    public <T> NoLista busca(T conteudo)
+    public NoLista<T> busca(T conteudo)
     {
         if (this.raiz == null)
             return null;
