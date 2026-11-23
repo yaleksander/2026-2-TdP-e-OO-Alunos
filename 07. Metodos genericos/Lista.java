@@ -1,8 +1,8 @@
-public class ListaHeterogenea
+public class Lista
 {
     private NoLista raiz;
     
-    public ListaHeterogenea()
+    public Lista()
     {
         raiz = null;
     }
@@ -29,7 +29,14 @@ public class ListaHeterogenea
             return null;
         return this.raiz.busca(conteudo);
     }
-    
+
+    public T get(int indice)
+    {
+        if (this.raiz == null)
+            return null;
+        return this.raiz.get(indice);
+    }
+
     public void imprime()
     {
         if (this.raiz != null)
