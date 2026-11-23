@@ -24,7 +24,7 @@ public class Main
 
     public static void exemploComLista()
     {
-        ListaHeterogenea lista = new ListaHeterogenea();
+        Lista lista = new Lista();
         lista.insere(new NoLista<Integer>(1));
         lista.insere(new NoLista<Double>(1.0));
         lista.insere(new NoLista<String>("1"));
