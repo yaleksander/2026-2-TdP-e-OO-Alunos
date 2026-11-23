@@ -38,6 +38,16 @@ public class NoLista<T>
                 return p;
         return null;
     }
+
+    public T get(int indice)
+    {
+        NoLista<T> p = this;
+        for (int i = 0; i < indice && p != null; i++)
+            p = p.prox;
+        if (p == null)
+            return null;
+        return p.conteudo;
+    }
     
     public void imprime()
     {
