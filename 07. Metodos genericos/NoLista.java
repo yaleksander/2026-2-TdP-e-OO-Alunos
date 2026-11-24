@@ -31,14 +31,14 @@ public class NoLista<T>
             p.prox = p.prox.prox;
     }
     
-    public NoLista busca(T conteudo)
+    public NoLista<T> busca(T conteudo)
     {
         for (NoLista p = this; p != null; p = p.prox)
             if (p.conteudo == conteudo)
                 return p;
         return null;
     }
-
+    
     public T get(int indice)
     {
         NoLista<T> p = this;
@@ -54,5 +54,13 @@ public class NoLista<T>
         for (NoLista p = this; p != null; p = p.prox)
             System.out.print(p.conteudo + "; ");
         System.out.println();
+    }
+    
+    public String toString()
+    {
+        String res = this.conteudo.toString();
+        for (NoLista<T> p = this.prox; p != null; p = p.prox)
+            res += " " + p.conteudo;
+        return res;
     }
 }

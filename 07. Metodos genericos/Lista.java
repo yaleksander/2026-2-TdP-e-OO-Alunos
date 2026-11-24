@@ -29,17 +29,24 @@ public class Lista<T>
             return null;
         return this.raiz.busca(conteudo);
     }
-
+    
     public T get(int indice)
     {
         if (this.raiz == null)
             return null;
         return this.raiz.get(indice);
     }
-
+    
     public void imprime()
     {
         if (this.raiz != null)
             this.raiz.imprime();
+    }
+    
+    public String toString()
+    {
+        if (this.raiz == null)
+            return "[]";
+        return "[" + this.raiz.toString() + "]";
     }
 }
