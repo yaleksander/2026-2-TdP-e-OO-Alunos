@@ -1,0 +1,17 @@
+#BlueJ class context
+#Wed Nov 25 19:43:12 BRT 2026
+comment0.target=NoLista
+comment1.params=conteudo
+comment1.target=NoLista(java.lang.Object)
+comment2.target=java.lang.Object getConteudo()
+comment3.params=novoNo
+comment3.target=void insere(NoLista)
+comment4.params=indice
+comment4.target=NoLista remove(int)
+comment5.params=conteudo
+comment5.target=NoLista busca(java.lang.Object)
+comment6.params=indice
+comment6.target=java.lang.Object get(int)
+comment7.target=void imprime()
+comment8.target=int tamanho()
+numComments=9

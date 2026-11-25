@@ -1,0 +1,17 @@
+#BlueJ class context
+#Wed Nov 25 20:52:42 BRT 2026
+comment0.target=Grafo
+comment1.params=tamanho
+comment1.target=Grafo(int)
+comment2.params=origem destino
+comment2.target=void adicionaAresta(int, int)
+comment3.params=origem destino
+comment3.target=void removeAresta(int, int)
+comment4.target=void imprime()
+comment5.params=inicio
+comment5.target=void buscaEmLargura(int)
+comment6.params=inicio
+comment6.target=void buscaEmProfundidade(int)
+comment7.params=x visitados
+comment7.target=void buscaEmProfundidade(int, boolean[])
+numComments=8
